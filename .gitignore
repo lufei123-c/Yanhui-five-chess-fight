@@ -1,0 +1,21 @@
+# ---- Qt Creator 的个人配置，换台电脑就没用了 ----
+.qtcreator/
+*.pro.user
+*.pro.user.*
+
+# ---- 编译产物，每次编译都会重新生成 ----
+build/
+build-*/
+
+# ---- 编译过程中间文件 ----
+Makefile*
+moc_*
+ui_*
+qrc_*
+*.o
+*.obj
+*.exe
+
+# ---- 系统生成的垃圾文件 ----
+.DS_Store
+Thumbs.db
